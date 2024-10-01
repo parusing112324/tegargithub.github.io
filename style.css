@@ -1,0 +1,47 @@
+body {
+    background-color: #e9ecef; /* Warna latar belakang yang lebih menarik */
+    font-family: Arial, sans-serif;
+  }
+  .portfolio-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff; /* Warna latar belakang kontainer */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #007bff;
+  }
+  .social-icons a:hover {
+    color: #0056b3;
+  }
+  .instagram-icon, .tiktok-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+  }
+  .instagram-icon {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/174/174855.png'); /* Instagram logo */
+  }
+  .tiktok-icon {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/3046/3046122.png'); /* TikTok logo */
+  }
+  .highlight {
+    color: #007bff;
+    font-weight: bold;
+  }
+  .input-group {
+    margin: 20px 0;
+  }
+  input {
+    border-radius: 5px;
+  }
+  
